@@ -1,0 +1,60 @@
+div{
+    
+    margin: 2px;
+}
+.mainpost{
+    width: 300px;
+    border: 2px solid black;
+    padding: 10px;
+    border-radius: 5px;
+    margin: auto;
+}
+.dpnmloc3dot{
+    display: flex;
+    justify-content: space-between;
+}
+.dpnmloc{
+    display: flex;
+    gap: 10px;
+
+}
+.postimg img{
+    width: 100%;
+
+}
+.lcss{
+    display: flex;
+    justify-content: space-between;
+}
+.profilepic{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.nmloc{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.nmloc div:first-child {
+    font-weight: bold;
+}
+
+.nmloc div:last-child {
+    font-size: 12px;
+    color: gray;
+}
+.lcs i {
+  font-size: 22px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.save i {
+  font-size: 22px;
+  cursor: pointer;
+}
+
+.lcs i:hover, .save i:hover {
+  color: #d62976; /* Insta pink shade */
+}
